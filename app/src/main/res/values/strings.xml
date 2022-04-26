@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">courseProject1</string>
+    <string-array name="mycountries">
+        <item>India</item>
+        <item>Newzealand</item>
+        <item>Bali</item>
+        <item>Switzerland</item>
+    </string-array>
+
+
+    <string-array name="countrylistview">
+        <item>India</item>
+        <item>Newzealand</item>
+        <item>Bali</item>
+        <item>Switzerland</item>
+        <item>Pakistan</item>
+        <item>BHutan</item>
+        <item>Srrilanka</item>
+        <item>Bangkok</item>
+        <item>MAlta</item>
+        <item>Russia</item>
+        <item>Bali</item>
+        <item>Switzerland</item>
+    </string-array>
+</resources>

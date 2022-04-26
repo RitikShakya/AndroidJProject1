@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.courseproject1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CourseProject1">
+        <activity
+            android:name=".Notifictions.LocalNotifications"
+            android:exported="true" />
+        <activity
+            android:name=".sharedpclass.Sharedclass"
+            android:exported="true" />
+        <activity
+            android:name=".gridview1.GridView1"
+            android:exported="true" />
+        <activity
+            android:name=".Recyclerview1.RecyclerView1"
+            android:exported="true" />
+        <activity
+            android:name=".listView2"
+            android:exported="true" />
+        <activity
+            android:name=".Projectstart"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
